@@ -1,0 +1,27 @@
+
+# Spring 2019
+
+- Bioinformatics in general
+  - Mutations & Malaria: correlations related to persistence
+
+- Comparing strains of mice
+
+- Where people 'look' on websites
+
+- Urban transportation / bikesharing
+
+# Spring 2018
+
+- Supporting Exploration and Engagement in Interactive Visualizations
+- Risk / Medical Visualization Design, Analysis, Studies
+- Visualization for Aging Populations
+- Visualization Literacy Measures and Analysis
+  - Interaction Literacy?
+  - Literacy Tests + Some other visualization performance measure?
+- Security Data Visualization
+  - http://vizsec.dbvis.de/ (many options)
+  - anomaly detection + security visualization
+- Clustering; Outliers/Anomalies + visualization
+  - Case studies / System
+  - Techniques
+  - User studies (contrasting human perception of an attribute (like clusters) with clustering algorithms (or anomaly/ outlier algorithms))
