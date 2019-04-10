@@ -2,9 +2,9 @@
 
 \begin{document}
 
-\title{Prospectus Template}
+\title{Hurricane Trace}
 
-\author{You, Me}
+\author{Jason Abel}
 
 \maketitle
 
@@ -12,7 +12,11 @@
 
 \section{One-sentence description}
 
+An interactive animation of hurricane paths where you can analyze the trace patterns of the hurricanes based on the user's selected area. 
+
 \section{Project Type}
+
+Exploration / Animation
 
 \section{Audience} 
 \begin{quote}
@@ -21,11 +25,15 @@ How does it meet their needs?
 What happens if their needs remain unmet?}
 \end{quote}
 
+This visualization has two potential audiences. First is for people interested in where hurricanes happen the most. For example, someone may not want to live near a region where there are a lot of hurricanes. This visualization would help them decided the best places to live. The second type of audience are those that want to find any similarities in hurricane paths in certain locations. By allowing them to see hurricane paths individually instead of all together, it could provide unforseen patterns that could be helpful for weather forecasting in the future.
+
 \section{Approach}
 \subsection{Details}
 \begin{quote}
 \textit{What is your approach?}
 \end{quote}
+
+The idea is to use animation to show how frequent hurricanes can be in some areas. By animating this, it animates a picture in people's minds instead of just presenting the data and stating when they happened. By allowing the users to look more closely at certain areas, this allows them to analyze their paths more closely by using the multiple views. Additionally, by changing the colors of the lines based on the intensity of the hurricane can also help in painting the picture I want for this project. 
 
 \subsection{Evidence for Success}
 \begin{quote}
@@ -33,33 +41,70 @@ What happens if their needs remain unmet?}
 \end{quote}
 
 
+
 \section{Best-case Impact Statement}
 \begin{quote}
 \textit{In the best-case scenario, what would be the impact statement (conclusion statement) for this project? \cite{wijk2005value, pike2009science}}
 \end{quote}
 
+I think the best case impact statement would be either people can easily tell what areas are hit with hurricanes the worst or if people can find any sort of anomolies in the hurrican paths through the multiple views. 
+
 \section{Major Milestones}
+
+\begin{itemize}
+\item Displaying a map in D3
+\item Placing hurricane paths on a map
+\item Animating the hurricane paths
+\item Using a brush to filter a section on the map
+\item Create multiple views of each hurricane in that filtered area
+\end{itemize}
 
 \section{Obstacles}
 
 \subsection{Major obstacles} % (if these fail, the project is over)
 
+\begin{itemize}
+\item Getting the brush to filter the correct area on the map
+\item Creating a map and converting the D3 space to latitude and longitude space
+\end{itemize}
+
 \subsection{Minor obstacles}
+
+\begin{itemize}
+\item Learning how to animate the hurricanes efficently
+\item Figuring out the best way to use the multiple views of the hurricanes
+\end{itemize}
 
 \section{Resources Needed}
 \begin{quote}
 \textit{What additional resources do you need to complete this project?}
 \end{quote}
 
+\begin{itemize}
+\item Code for mapping D3 space to latitudes and longitudes
+\item Example code on how to animate in D3
+\item Code for displaying a map in D3
+\end{itemize}
+
 \section{5 Related Publications}
 \begin{quote}
 \textit{List 5 major publications that are most relevant to this project, and how they are related (sample citation \cite{wijk2005value}).}
 \end{quote}
 
+\begin{itemize}
+\item Roberson et al. wrote a paper on the effectiveness of animation in visualization. It was discovered that it is not great for analysis purposes but good for presentations. As such, I am using the animation to get a general point across and then using the multiple views for analysis. \cite{robertson2008effectiveness}
+\item Ruginski et al. did an experiment on the best way to present hurricane uncertainty. While I am not directly dealing with uncertainty, It still proveds me with a good way of representing the hurricanes on a map. \cite{ruginski2016non}
+\item Ward et al. wrote a paper on using multiple views in order to present anomolies and patterns on data that they collected which is exactly the same kind of thing I am trying to do with the hurricane paths. \cite{ward1994xmdvtool}
+\item DiBiase et al. wrote a paper about some of the best practices on visualizing animated data on a map. They talk about the dynamic variables to emphasize certain aspects while using static maps and graphs to enhance analysis.
+\item
+\end{itemize}
+
 \section{Define Success}
 \begin{quote}
 \textit{What is the minimum amount of work necessary for this work be publishable?}
 \end{quote}
+
+If I can portrait the areas where hurricanes happen the most and allow users to analyze the paths, then I believe that this will be sufficeint in publishing a paper. 
 
 \bibliographystyle{abbrv}
 \bibliography{prospectus}
