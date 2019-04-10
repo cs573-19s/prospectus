@@ -2,7 +2,7 @@
 
 Introduction
 ----
-Data visualization plays an important role in urban data analysis that has a huge impact on urban design and research. In this project, Shanghai’s metro data is visualized and data in 2015/04/20 is chosen as an example.
+Data visualization plays an important role in urban data analysis that has a huge impact on urban design and research. In this project, Shanghai’s metro data is visualized and data on 2015/04/01 is chosen as an example.
 Our target is to present ShangHai’s city streaming based on metros’ streaming. And data is collected from ShangHai public transportation released from Shanghai government in 2015 (http://soda.shdataic.org.cn). 
 
 We mainly focus on metro streaming and passenger streaming in different stations along the timeline in a particular day. To provide more information for urban data analysis, weather information at different times is added. What’s more is that the spatial division is applied based on ShangHai administrative regions in order to reflect the relationship between metros’ moving and regions’ functionalities.
