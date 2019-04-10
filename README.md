@@ -11,8 +11,11 @@ Files & examples you'll need to create a good prospectus.
 - 延误：TOS.txt
 - 车流量/人流量
 
+
 去掉地理位置信息后，抽象的表达了列车的动向
-按区划分
+//4.9讨论：
+-按行政区划分抽象表达不同行政区的地铁车站、车次、人流量 数据关系
+-给每个车站加一个label图片 
 
 Weather
 ----
