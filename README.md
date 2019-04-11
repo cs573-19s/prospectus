@@ -22,7 +22,7 @@ Audience
 ----
 The audiences for this project could be divided into two groups, citizens and urban designers. Based on our web application, citizens will get an overall understanding of daily metro streaming and organize their general metro trips based on the degree of crowdedness. 
 
-As for as the government and urban designers, this application will help them get new insights on urban construction.	
+As far as the government and urban designers, this application will help them get new insights on urban construction.	
 
 Approach
 ----
