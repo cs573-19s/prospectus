@@ -72,6 +72,8 @@ Resources Needed
 
 5 Related Publications
 ----
+- https://cityvis.io
+
 - http://mbtaviz.github.io/
 
 - http://clome.info/work/machine-visions/
