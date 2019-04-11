@@ -90,6 +90,10 @@ In the final stage, we plan publish our product on social media and provide it t
 References
 ----
 - https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7120975
+- https://ieeexplore.ieee.org/document/5742384
+- https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7120975
+- https://ieeexplore.ieee.org/document/6634174
+- https://ieeexplore.ieee.org/abstract/document/6569129
 
 
 
