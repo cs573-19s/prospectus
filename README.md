@@ -43,6 +43,7 @@ Major Milestones
 ----
 - Metro streaming prototype is finished on April 5th, 2019.
 ![ggplot2](prototype1.gif)
+![ggplot2](prototype2.gif)
 
 - Station entrance and exit visualization prototype is finished on April 9th, 2019.
 
