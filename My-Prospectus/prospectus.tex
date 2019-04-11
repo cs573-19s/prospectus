@@ -1,0 +1,98 @@
+\documentclass{proc}
+
+\begin{document}
+
+\title{Hurricane Evacuation Problems}
+
+\author{Jason Abel}
+
+\maketitle
+
+\section{Introduction}
+
+Over the years, the world has experienced many devastating hurricanes that have cause large amounts of damages and a significant amount of casualties. This is not surprising since hurricanes can have winds up to 200km/hr pushing large objects around as well as causing major flooding in the areas that it hits.
+
+Weather forecasters often warn people to evacuate an area before a hurricane hits because they know that it will cause a lot of damages and can be unpredictable. Often times, people are warned up to three days in advance to evacuate an area. So why is it that there are still so many casualties even with these warning? One potential reason for this is misunderstandings of hurricane uncertainty. As shown in an experiment by Ruginski et al, people often misinterpret the hurricane cone of uncertainty and think that the hurricane will not damage certain areas as hard as others \cite{ruginski2016non}. Thus, people may believe that they may be just on the outskirts of the hurricane or wont be affected at all by the hurricane and decide not to evacuate. Unfortunately, sometime the people who do not evacuate end up getting injured or worse.
+
+In this visualization, I plan to tell a story of when people are told to evacuate from a hurricane, the hurricanes path, and the number of casualties produced by the hurricane because people decided not to evacuate their region. 
+
+\section{One-sentence description}
+
+An interactive animation of hurricane paths, evacuation warning, and casualties where users can analyze the trace patterns, warning dates, and casualty numbers of the hurricanes based on the user's selected area. 
+
+\section{Project Type}
+
+Exploration / Animation /  Storytelling
+
+\section{Audience} 
+
+This visualization has many potential audiences. First it can be for people interested in where hurricanes happen the most. For example, someone may not want to live near a region where there are a lot of hurricanes. This visualization would help them decided the best places to live. The second type of audience are those that want to find any similarities in hurricane paths, evacuation dates, and casualties in certain locations. By allowing them to see hurricane paths individually instead of all together, it could provide unforeseen patterns that could be helpful for weather forecasting in the future. The most important audience however are those who do not want to evacuate from hurricanes or decided to evacuate too late. By showing this animation, I hope that they will understand that hurricanes can be unpredictable and should not be taken lightly.
+
+\section{Approach}
+\subsection{Details}
+
+The idea is to use animation to show when people are warned to evacuate and how many casualties of each storm I portrait. By animating this, it creates a picture in people's minds instead of just presenting the data and stating when they happened. By allowing the users to look more closely at certain areas, this allows them to analyze each hurricane data more closely by using the multiple views. Additionally, by changing the colors of the lines based on the intensity of the hurricane can also help in painting the picture I want for this project. 
+
+\subsection{Evidence for Success}
+
+I think instead of just statically displaying all the hurricane information, an animation will help people picture not just where the storms are happening but also the frequency and how far in advance people are told to evacuate. Additionally, with the multiple views of each individual hurricane and its data. I think that using this, users can more understand how devastating individual hurricanes have been and compare them to other storm in the given area to see if there are any unique anomalies. 
+
+\section{Best-case Impact Statement}
+
+I think the best case impact statement would be that people understand the uncertainty of hurricanes and understand that they should listen to hurricane warnings. The main reason people end up losing their lives in hurricanes is because they underestimate hurricanes and end up not evacuating. 
+
+\section{Major Milestones}
+
+\begin{itemize}
+\item Gathering casualty numbers and evacuation dates of specific hurricanes 
+\item Displaying a map in D3
+\item Placing hurricane paths on a map
+\item Animating the hurricane paths with times
+\item Using a brush to filter a section on the map
+\item Create multiple views of each hurricane in that filtered area
+\end{itemize}
+
+\section{Obstacles}
+
+\subsection{Major obstacles} % (if these fail, the project is over)
+
+\begin{itemize}
+\item Gathering casualty numbers and evacuation dates of specific hurricanes
+\item Getting the brush to filter the correct area on the map
+\item Creating a map and converting the D3 space to latitude and longitude space
+\end{itemize}
+
+\subsection{Minor obstacles}
+
+\begin{itemize}
+\item Learning how to animate the hurricanes efficiently
+\item Figuring out the best way to use the multiple views of the hurricanes
+\end{itemize}
+
+\section{Resources Needed}
+
+\begin{itemize}
+\item Data on casualties and evacuation dates
+\item Code for mapping D3 space to latitudes and longitudes
+\item Example code on how to animate in D3
+\item Code for displaying a map in D3
+\end{itemize}
+
+\section{5 Related Publications}
+
+\begin{itemize}
+\item Roberson et al. wrote a paper on the effectiveness of animation in visualization. It was discovered that it is not great for analysis purposes but good for presentations. As such, I am using the animation to get a general point across and then using the multiple views for analysis \cite{robertson2008effectiveness}.
+\item Ruginski et al. did an experiment on the best way to present hurricane uncertainty. While I am not directly dealing with uncertainty, It still provides me with a good way of representing the hurricanes on a map \cite{ruginski2016non}.
+\item Ward et al. wrote a paper on using multiple views in order to present anomolies and patterns on data that they collected which is exactly the same kind of thing I am trying to do with the hurricane paths \cite{ward1994xmdvtool}.
+\item DiBiase et al. wrote a paper about some of the best practices on visualizing animated data on a map. They talk about the dynamic variables to emphasize certain aspects while using static maps and graphs to enhance analysis \cite{dibiase1992animation}.
+\item Segel and Heer wrote a paper on storytelling in visualizations. Since I want to tell a story of hurricanes to get my point across, This paper will definitely help in determining design strategy \cite{segel2010narrative}.
+\end{itemize}
+
+\section{Define Success}
+
+I think that this project can be successful in many different ways. If I am able to get my point across about hurricanes being unpredictable and not be taken lightly, I think that will be the best success. However, even if this point is not received by viewers, I still think that being able to analyze the hurricane casualties and evacuation dates could provide useful insights which would also be a success. If either of these are achieved, I believe that this paper could potentially be published.
+
+\bibliographystyle{abbrv}
+\bibliography{prospectus}
+\end{document}
+
