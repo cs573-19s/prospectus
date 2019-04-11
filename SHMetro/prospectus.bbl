@@ -1,3 +1,15 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{InteractiveVisualization}
+H.~v. d. W. J. J. v.~W. Roeland~Scheepens, Niels~Willems.
+\newblock Interactive visualization of multivariate trajectory data with
+  density maps.
+\newblock {\em IEEE Pacific Visualization Symposium}, 2011.
+
+\bibitem{survey}
+F.-Y.~W. Wei~Chen, Fangzhou~Guo.
+\newblock A survey of traffic data visualization.
+\newblock {\em IEEE Transactions on Intelligent Transportation Systems}, pages
+  2970--2984, 2015.
 
 \end{thebibliography}
