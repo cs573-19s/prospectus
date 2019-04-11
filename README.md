@@ -82,25 +82,15 @@ Resources Needed
 
 Define Success
 ----
+There are three stages to define success. 
+The first one to finish CS573 final project, we will build creative and interactive data visualization website based on the existing dataset.
+The second stage is to get real-time data from other platform or data crawling, which might be time-consuming but will make our viz more meaningful. 
+In the final stage, we plan publish our product on social media and provide it to our target users.
 
 References
 ----
 - https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7120975
 
 
-
-
-- 列车载客量动态图（passagers.html)--某一列车在各站点拥挤度（train.json)
-- 上海地铁系统进站流量图（metro_in_a_day.html)--每五分钟--
-- 各站台首末班车时间--timetable.txt
-- ATS.txt
-- 延误：TOS.txt
-- 车流量/人流量
-
-
-去掉地理位置信息后，抽象的表达了列车的动向
-//4.9讨论：
--按行政区划分抽象表达不同行政区的地铁车站、车次、人流量 数据关系
--给每个车站加一个label图片 
 
 
