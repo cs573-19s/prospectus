@@ -1,3 +1,5 @@
 # Research project prospectus
 
-Files & examples you'll need to create a good prospectus.
+Our current prospectus can be found here:
+
+https://github.com/longenbach/prospectus/blob/master/Prospectus_Liu_Longenbach/Prospectus_v1.pdf
