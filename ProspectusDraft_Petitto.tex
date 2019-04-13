@@ -6,45 +6,35 @@
 \usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
 								% TeX will automatically convert eps --> pdf in pdflatex		
 \usepackage{amssymb}
-
-
-\title{Prospectus Template}
+\title{Visualizing Network Data to Reflect State Change}
 \author{Jocelyn Petitto}
 %\date{}							% Activate to display a given date or no date
 
 \begin{document}
 \maketitle
 \section{Introduction}
-Networks are widely used for visualizing biological systems. These systems are developed from the bottom-up, using experimentally acquired data to construct systems, and from the top-down, using experimental omics data to assemble hypothetical systems that are subsequently confirmed experimentally (Go2018). The relationship between the mitochondrial and nuclear genome plays out through interactions at multiple levels that include: metabolite concentration, protein availability and localization, and, potentially, noncoding mitochondrial RNA interaction with the nuclear genome (Vendramin2017).  The need for combining research efforts is palpable among those suffering from mitochondrial diseases, a class of dysfunction that is as diverse as cancer and with equally diverse genetic causes, including many that are polygenic.
+Networks are widely used for visualizing biological systems. These systems are developed from the bottom-up, using experimentally acquired data to construct systems, and from the top-down, using experimental omics data to assemble hypothetical systems that are subsequently confirmed experimentally \cite{Go2018}. The relationship between the mitochondrial and nuclear genome plays out through interactions at multiple levels that include: metabolite concentration, protein availability and localization, and, potentially, noncoding mitochondrial RNA interaction with the nuclear genome \cite{Vendramin2017}.  The need for combining research efforts is palpable among those suffering from mitochondrial diseases, a class of dysfunction that is as diverse as cancer and with equally diverse genetic causes, including many that are polygenic.
 
-We believe visualizing the complex interactions between these genomes provides a means of organizing existing research. By changing to a non-linear organization of research materials, we hope to establish which connections require further experimentation and/or validation of existing results. The need for this is based on the limitations in availability or quality of current data. To do so, we propose using methods of network visualization currently utilized to track collaboration such as OnGraX (Zimmer2018).
-
-Visualizing causality is an area of weakness in biological data visualization (Murray2017). The current model of mitochondrial metabolomics, MitoCore, uses (Smith2017) uses flux balance analysis to model change, but this model is not visual. Flux analysis as a method requires less in terms of computational power, but is only used to model steady-states and rarely includes regulatory effects (Orth2010). Ultimately, our goal is to create a searchable network integrating our new approach, which would include the effects of perturbations of equilibrium conditions, with existing data. This will provide a framework for exploring the effects of mutations in either genome on the tissue specific state of a cell as the network re-establishes equilibrium.
-
+We believe visualizing the complex interactions between these genomes provides a means of organizing existing research. By changing to a non-linear organization of research materials, we hope to establish which connections require further experimentation and/or validation of existing results. The need for this is based on the limitations in availability or quality of current data. To do so, we propose using methods of network visualization currently utilized to track collaboration such as OnGraX \cite{Zimmer2017}.
+Visualizing causality is an area of weakness in biological data visualization \cite{Murray2017}. The current model of mitochondrial metabolomics, MitoCore, uses \cite{Smith2017} uses flux balance analysis to model change, but this model is not visual. Flux analysis as a method requires less in terms of computational power, but is only used to model steady-states and rarely includes regulatory effects \cite{Orth2010}. Ultimately, our goal is to create a searchable network integrating our new approach, which would include the effects of perturbations of equilibrium conditions, with existing data. This will provide a framework for exploring the effects of mutations in either genome on the tissue specific state of a cell as the network re-establishes equilibrium.
 \section{One-sentence description}
-**NEED THIS**
-
+Drawing from existing tools, we aim to prototype a network that displays both multiple omics data and the supporting research.
 \section{Project Type}
 Visualization (as a research tool)
 
 \section{Audience} 
 The tool proposed will impact scientists researching mitochondrial function and disease. Access to research related to specific metabolic pathways or gene expression presented visually will allow for a more robust review of available literature that may be overlooked by traditional search methods. Additionally, the proposed tool will help groups assess what areas are in need of investigation so that resources may be distributed accordingly.
 
-As the non-coding products of DNA transcription are increasingly acknowledged as having significance in cellular structure and function, the lines between various "omics" will likely grow more fuzzy and the need to combine previously existing networks will increase. This makes visualization of existing research a potentially useful tool for other areas of research where complex dynamics may need to be reassessed in terms of multiple networks.
-
+As the non-coding products of DNA transcription are increasingly acknowledged as having significance in cellular structure and function, the lines between various omics will likely grow more fuzzy and the need to combine previously existing networks will increase. This makes visualization of existing research a potentially useful tool for other areas of research where complex dynamics may need to be reassessed in terms of multiple networks.
 \section{Approach}
 \subsection{Details}
 Mitochondrial function requires the coordination of two genomes. Their dysfunction is the result of any number of mutation combinations with varying degrees of severity. These degrees of severity are based on the changes to the network that must be made to try to achieve a new steady-state. Visualizing these changes will make the associations between genetic mutation and metabolic effect more apparent. Overlaying the available research on the pathways between and within existing networks will lead to a better understand the function (and dysfunction). Additionally, this approach will help researchers account for potential confounders when designing experiments or identify areas in need of further research.
-
 \subsection{Evidence for Success}
 This approach will work because humans are inclined to see change, but only in situations with which they are not familiar. Unexpected changes in a known realm must be pointed out or they will go overlooked. The tendency toward the familiar may also dissuade researchers from exploring new territory, when unbeknownst to them, there may be connection to previous work that makes responsible research in a new area more plausible. 
-
-
 \section{Best-case Impact Statement}
 In the best-case, we would demonstrate how the state of a system changes based on an alteration of the attributes of a node in the network. In doing so, we would provide a prototype of visualizing change within a network. Whether or not these results lead to perceptual understanding by the intended user would require additional research.
 
 In addition to visualizing change, the user will be able to retrieve the annotation that indicates that the perceived change is associated with the initial alteration in node attributes.
-
 \section{Major Milestones}
 \begin{itemize}
   \item Curate a small dataset to use a portion of the target network as to build a prototype.
@@ -52,59 +42,41 @@ In addition to visualizing change, the user will be able to retrieve the annotat
   \item Implement a method of visualizing that change in a lasting way (possibly similar to a topological map?).
   \item Include interactivity so the user may view the research supporting the visualized relationship.
 \end{itemize}
-
 \section{Obstacles}
 \subsection{Major obstacles} % (if these fail, the project is over)
 \begin{itemize}
-  \item D3 is not the ideal tool to create this tool, though it is a viable option for a small prototype given flexibility
-  \item Effectively reflecting causal change in a visualization
+  \item D3 is not the ideal tool to create the final visualation, but it is a viable option for a small prototype given its flexibility and ability to display within a browser. The later increases the ability to demonstrate functionality to foster future collaborations.
+  \item Effectively reflecting causal change in a visualization.
 \end{itemize}
-
 \subsection{Minor obstacles}
 \begin{itemize}
-  \item Defining a subset of relationships (to be represented by nodes and edges) for use developing the prototype
-  \item Hard coding dummy data in a structure usable for this purpose
+  \item Defining a subset of relationships (to be represented by nodes and edges) for use developing the prototype.
+   \item Learning to utilize the existing flux balance data using MitoCore within MatLab.
+   \item Hard coding dummy data in a structure usable for this purpose.
+  \item Performing the appropriate data manipulations in R, a relatively new environment for me, to come up with datasets usable to construct visualizations in D3.
 \end{itemize}
-
 \section{Resources Needed}
 \begin{itemize}
   \item Flux data
   \item Genetic information correlating mitochondrial DNA and gene products
   \item Code to make a network with edges reflective of reaction rates
+  \item More investigation into how to visually represent change in a system.
 \end{itemize}
-
 \section{5 Related Publications}
+Go presented a review of the omic levels involved in oxidative physiology and disease in mitochondrial given existing data and the complexity of an adequate, network-based model could be constructed\cite{Go2018}.
 
-Go2018 - review/ call to action
+Uppa introduces xMWAS, a tool that incorporates multiple omics datasets including visualization, clustering of functionally related biomolecules, and analysis to characterize nodes that undergo state change under different conditions\cite{Uppal2018}.
 
-Uppal2018 - Tool: incoperating multiple omics datasets including visualization, clustering of functionally related biomolecules, and analysis to characterize nodes that undergo state change under different conditions
+Smith built MitoCore, a constrain based model for analyzing flux within mitochondria based on metabolites and proteonomics, using the COBRA package in MatLab \cite{Smith2017}.. Such a model is less computationally expensive than a kinetics based approach, though the lack of kinetics does come with limitations\cite{Orth2010}.
 
-Smith2017 - Tool: MitoCore - constraint based model <- less computationally expensive than a kinetics based approach, though the lack of kinetics does come with limitations -Orth2010
-
-Murray2017- Taxonomy: outlines the tasks performed by biologists working with pathway data and the challenges each dataset comes with 
+Murray constructed a taxonomy that outlines tasks performed by biologists who work with pathway data and the associated challenges of each data type. These findings were based on interview with scientists in the field at various specializations and levels of expertise \cite{Murray2017}.
 need for research in displaying casual relationships
 
-Lex2013 - Tool: Entourage: the use of subsets to display biological information using complex networks
-
+ Lex constructed Entourage, a network visualization tool that aims to retain attributes lost in large datasets through the use of subsetting when displaying biological information using complex networks \cite{Lex2013}.
 \section{Define Success}
 At this point in prototyping, success would be demonstrating how perturbing a sample network changes the steady state.
+\bibliography{ProspectusDraft_Petitto} 
+\bibliographystyle{ieeetr}
 
-\section{References}
-
-Go2018
-
-Lex2013
-
-Murray2017
-
-Orth2010
-
-Smith2017
-
-Uppal2018
-
-Vendramin2017
-
-Zimmer2017
 
 \end{document}
