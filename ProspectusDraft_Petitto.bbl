@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{Go2018}
+Y.~M. Go, J.~Fernandes, X.~Hu, K.~Uppal, and D.~P. Jones, ``{Mitochondrial
+  network responses in oxidative physiology and disease},'' feb 2018.
+
+\bibitem{Vendramin2017}
+R.~Vendramin, J.-C. Marine, and E.~Leucci, ``{Non‐coding RNAs: the dark side
+  of nuclear–mitochondrial communication},'' {\em The EMBO Journal}, vol.~36,
+  pp.~1123--1133, mar 2017.
+
+\bibitem{Zimmer2017}
+B.~Zimmer and A.~Kerren, ``{OnGraX: A Web-Based System for the Collaborative
+  Visual Analysis of Graphs},'' {\em Journal of Graph Algorithms and
+  Applications}, vol.~21, no.~1, pp.~5--27, 2017.
+
+\bibitem{Murray2017}
+P.~Murray, F.~McGee, and A.~G. Forbes, ``{A taxonomy of visualization tasks for
+  the analysis of biological pathway data},'' {\em BMC Bioinformatics},
+  vol.~18, p.~21, feb 2017.
+
+\bibitem{Smith2017}
+A.~C. Smith, F.~Eyassu, J.~P. Mazat, and A.~J. Robinson, ``{MitoCore: A curated
+  constraint-based model for simulating human central metabolism},'' {\em BMC
+  Systems Biology}, vol.~11, p.~114, dec 2017.
+
+\bibitem{Orth2010}
+J.~D. Orth, I.~Thiele, and B.~O. Palsson, ``{What is flux balance analysis?},''
+  mar 2010.
+
+\bibitem{Uppal2018}
+K.~Uppal, C.~Ma, Y.~M. Go, and D.~P. Jones, ``{XMWAS: A data-driven integration
+  and differential network analysis tool},'' {\em Bioinformatics}, vol.~34,
+  no.~4, pp.~701--702, 2018.
+
+\bibitem{Lex2013}
+A.~Lex, C.~Partl, D.~Kalkofen, M.~Streit, S.~Gratzl, A.~M. Wassermann,
+  D.~Schmalstieg, and H.~Pfister, ``{Entourage: Visualizing relationships
+  between biological pathways using contextual subsets},'' {\em IEEE
+  Transactions on Visualization and Computer Graphics}, vol.~19, no.~12,
+  pp.~2536--2545, 2013.
+
+\end{thebibliography}
